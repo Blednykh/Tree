@@ -1,0 +1,8 @@
+[
+  {"id": 2, "title": "level 1 [0]", "parent": 1},
+  {"id": 3, "title": "level 1 [1]", "parent": 1},
+  {"id": 5, "title": "level 3 [0.0.0]", "parent": 4},
+  {"id": 4, "title": "level 2 [0.0]", "parent": 2},
+  {"id": 1, "title": "root", "parent": null},
+  {"id": 6, "title": "root2", "parent": null}
+]

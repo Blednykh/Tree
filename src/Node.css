@@ -1,0 +1,12 @@
+
+.nonVisibleButton{
+    visibility: hidden;
+}
+
+.Node{
+    background-image : url(pictures/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+    padding-left: 0px;
+    margin-left: 18px;
+ }

@@ -1,0 +1,28 @@
+.Nodes{
+    background-image : url(pictures/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+    padding-left: 0px;
+}
+
+header{
+    min-height: 100px;
+    margin-bottom: 40px;
+}
+header button{
+    margin-top: 50px;
+}
+.App{
+    margin-left: 20px;
+}
+.Body button{
+    width: 20px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
