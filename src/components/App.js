@@ -38,8 +38,11 @@ class App extends Component {
     buttonSetTitle(){
         const checkedNodes = tree.getIdentifiersInChecked();
         checkedNodes.forEach(function(item){
-            item.setTitle(prompt("New Title for "+item.title));
-            item.setChecked();
+            const newTitle = prompt("New Title for "+item.title, '');
+            if(newTitle==!null){
+                item.setTitle(newTitle)
+                item.setChecked();
+            }
         });
         this.forceUpdate();
     }
